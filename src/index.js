@@ -8,7 +8,7 @@ import MusicMaster from './projects/music-master';
 import './index.css';
 
 ReactDOM.render(
-    <Router>
+    <Router basename='/protfolio2'>
         <Switch>
             <Route exact path='/' component={App} />
             <Route path='/music-master' component={MusicMaster} />
