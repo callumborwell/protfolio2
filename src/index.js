@@ -11,7 +11,7 @@ ReactDOM.render(
     <Router>
         <Switch>
             <Route exact path='/protfolio2' component={App} />
-            <Route path='/music-master' component={MusicMaster} />
+            <Route path='/protfolio2/music-master' component={MusicMaster} />
         </Switch>
     </Router>, 
     document.getElementById('root')
