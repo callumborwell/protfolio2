@@ -10,7 +10,7 @@ import './index.css';
 ReactDOM.render(
     <Router>
         <Switch>
-            <Route exact path='/protfolio2' component={App} />
+            <Route exact path='/' component={App} />
             <Route path='/music-master' component={MusicMaster} />
         </Switch>
     </Router>, 

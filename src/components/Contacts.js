@@ -6,8 +6,8 @@ const Contacts = () => (
     <footer className="text-center" role="contentinfo" id="contacts" aria-labelledby="footer-title">
 
         <div className="container">
-            <aside className="row justify-content-center py-3 md:pt-4 lg:pt-5" role="complementary">
-                <div class="col-12 mb-0.5 lg:mb-1 lg:mt-2">
+            <aside className="row justify-content-center py-3 md:pt-4 lg:pt-5">
+                <div className="col-12 mb-0.5 lg:mb-1 lg:mt-2">
                     <div className='section-header-box align-middle'>
                         <div className='section-header-box-content'>
                             Find Me On<span className="sr-only"> the following networks</span>
@@ -23,23 +23,23 @@ const Contacts = () => (
                         <FaLinkedin />
                     </a>
                 </div>
-                <div class="col-auto mt mb-0">
+                <div className="col-auto mt mb-0">
                     <a href='https://www.instagram.com/dapperboar/' title='Instagram' aria-describedby="new-window" rel="noopener noreferrer">
                         <FaInstagramSquare />
                     </a>
                 </div>
-                <div class="col-auto mt mb-0">
+                <div className="col-auto mt mb-0">
                     <a href='https://github.com/callumborwell' title='GitHub' aria-describedby="new-window" rel="noopener noreferrer">
                         <FaGithub />
                     </a>
                 </div>
             </aside>
 
-            <h2 class="sr-only">Useful links</h2>
-            <div class="row fs-4 justify-content-center contact-bottom">
-                <div class="col-auto">My email address : <a href="mailto:callum.borwell@gmail.com">callum.borwell@gmail.com</a></div>
-                <div class="col-auto px-0 text-primary-light" aria-hidden="true">•</div>
-                <div class="col-auto">Source code on <a href="" rel="noopener noreferrer">GitHub</a></div>
+            <h2 className="sr-only">Useful links</h2>
+            <div className="row fs-4 justify-content-center contact-bottom">
+                <div className="col-auto">My email address : <a href="mailto:callum.borwell@gmail.com">callum.borwell@gmail.com</a></div>
+                <div className="col-auto px-0 text-primary-light" aria-hidden="true">•</div>
+                <div className="col-auto">Source code on <a href="https://github.com/callumborwell/protfolio2" rel="noopener noreferrer">GitHub</a></div>
             </div>
         </div>
 
