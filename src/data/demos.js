@@ -18,8 +18,8 @@ const DEMOS = [
         title:'Solo',
         subheading:'HTML5, CSS3, Bootstrap, jQuery',
         description:'A responsive website project to implement HTML5, CSS3, and Bootstrap into modules applicable for several projects. Javascript and jQuery libraries add complexity to allow for smoother animation, navigation, and functionality.',
-        link:'https://github.com/callumborwell/responsive-solo',
-        linktext:'GitHub Source'
+        link:'https://callumborwell.github.io/responsive-solo/',
+        linktext:'Explore'
     },
     {
         id:3,
