@@ -1,0 +1,84 @@
+/* ===========================
+        About
+============================== */
+#about {
+    background: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#about-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    /* background: url(about-me-bg--lg.jpg) no-repeat;
+    background-size: cover; */
+}
+
+#about-overlay {
+    background-color: rgba(54, 54, 54, 0.3);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#about-content {
+    width: 100%;
+    height: 100%;
+    display: table;
+    padding: 70px 0 0 0;
+}
+
+@media (min-width: 993px){
+    #about-content {
+        padding-left: 100px;
+    }
+}
+
+#about-content h1 {
+    margin-top:0;
+    font-weight:400;
+    font-size:48px;
+}
+
+.about-me__content {
+    background-color: rgba(17,17,17,.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+
+    position: relative;
+    padding: 3rem;
+    border-radius: 0.25rem;
+    color: #fff;
+
+    text-align: left;
+}
+
+.p-subheading {
+    font-size:24px;
+    padding:0 0 12px;
+}
+
+#arrow-down {
+    border-radius: 50%;
+    border:none;
+    font-size: 24px;
+    line-height: 0;
+    padding: 12px;
+    background-color: var(--highlight);
+    color:var(--lowlight);
+    margin-bottom:20px;
+}
+
+#arrow-down:hover {
+    background-color: white;
+}

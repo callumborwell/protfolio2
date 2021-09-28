@@ -1,0 +1,66 @@
+/* ===========================
+        Navbar
+============================== */
+.navbar {
+    padding: 13px 50px;
+    -webkit-transition: all 300ms linear;
+    transition: all 300ms linear;
+
+    font-family: "Roboto", sans-serif;
+    color: var(--highlight);
+    font-size: 15px;
+    letter-spacing: 1px;
+
+    background-color: rgba(17,17,17,.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border:none;
+
+    border-radius: 0;
+}
+
+@media (max-width: 767px){
+    .navbar {
+        padding: 13px 0;
+    }
+}
+
+.nottop {
+    background-color: var(--lowlight);
+    box-shadow:inset 0 -0.25em var(--altlight);
+}
+
+#responsive-navbar-nav {
+    justify-content: right;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:var(--highlight);
+    margin:0 5px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color:#fff;
+}
+
+.navbar-light .navbar-brand {
+    color:#fff;
+    font-size: 3rem;
+}
+
+.navbar-light .navbar-brand:visited {
+    color:#fff;
+}
+
+.navbar-light .navbar-brand p {
+    font-family: "Allison", sans-serif;
+    font-size: 4rem;
+    display:inline;
+}
+
+.navbar-light .navbar-toggler {
+    border:none;
+    background:var(--highlight);
+    padding:5px;
+}

@@ -1,0 +1,51 @@
+#social-block {
+    background-image: linear-gradient(
+        180deg,var(--altlight),red);
+    padding:5px;
+    border-radius: 0.5rem;
+}
+
+#social-block a {
+    display:block;
+    line-height:0;
+    padding:10px;
+    font-size:4rem;
+    border-radius:0.5rem;
+    color:#fff;
+}
+
+#social-block a:hover {
+    background:#fff;
+    color:red;
+}
+
+/* For small screen */
+@media (max-width: 576px) {
+    #social-block {
+        position:absolute;
+        bottom:0;right:0;
+        border-radius:0.5rem 0 0 0;
+        background-image: linear-gradient(
+        90deg,var(--altlight),red);
+    }
+
+    #social-block a {
+        display:inline-block;
+    }
+}
+/* For medium screen */    
+@media (min-width: 576px) and (max-width: 991px) {
+    #social-block {
+        position:absolute;
+        right:0;
+        border-radius:0.5rem 0 0 0.5rem;
+    }
+}
+/* For large screen */
+@media (min-width: 992px) {
+    #social-block {
+        position:absolute;
+        bottom:20px;
+        right:20px;
+    }
+}

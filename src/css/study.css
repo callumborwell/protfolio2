@@ -1,0 +1,58 @@
+#study {
+    background: url(../assets/img/study/study__bg.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+#study-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.study {
+    padding:10px;
+    background:rgba(0, 0, 0, 0.7);;
+    border-radius: 1rem;
+}
+
+#study .section-header {
+    margin-top: 35px;
+}
+
+#study img {
+    width:inherit;
+}
+
+.study-title {
+    font-family: "Merienda", sans-serif;
+    font-weight:700;
+    font-size: 3rem;
+}
+
+.study-sub {
+    padding-bottom: 15px;
+}
+
+#study p {
+    padding-bottom: 10px;
+}
+
+.construction-tape {
+    background: repeating-linear-gradient( -55deg, yellow, yellow 10px, black 10px, black 20px);
+    border:solid 2px yellow;
+    width:100%;height:20px;
+    position:absolute;
+    z-index: 2;
+    top:30px;left:0px;
+    transform:rotate(1deg);
+}
+.construction-tape:nth-of-type(2) {
+    top:50px;
+    transform:rotate(-0.5deg);
+}
+.construction-tape:nth-of-type(1) {
+    bottom:0; top:unset;
+}

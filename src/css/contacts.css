@@ -1,0 +1,33 @@
+#contacts {
+    background:linear-gradient(
+        175deg,var(--altlight),red);
+    padding:50px 0 30px 0
+}
+
+#contacts .section-header-box {
+    margin-bottom: 0px;
+}
+
+#contacts aside a {
+    line-height:0;
+    font-size:5rem;
+    color:#fff;
+}
+
+#contacts aside a:hover {
+    line-height:0;
+    color:var(--highlight);
+}
+
+.contact-bottom {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.contact-bottom a {
+    color:var(--highlight);
+}
+
+.contact-bottom a:hover {
+    color:#fff;
+}
