@@ -31,7 +31,7 @@ const SKILLS = [
         id:5,
         icon:<FaReact/>,
         title:'React',
-        desc:'Open Source Front-End JavaScript libraries.'
+        desc:'JSX framework for development with an active community of open source libraries.'
     },
     {
         id:6,
