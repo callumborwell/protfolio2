@@ -3,7 +3,7 @@ import STUDYS from '../data/study';
 import '../css/study.css';
 
 const Study = props => {
-    const { image, title, subheading, description, link } = props.study;
+    const { image, title, subheading, description, link, linktext } = props.study;
 
     return (
         <div className='col-12 col-sm-6 col-md-6 col-lg-4 text-left text-sm-center'>
@@ -14,7 +14,7 @@ const Study = props => {
                 <p>{description}</p>
                 <div className='text-center'>
                     <a href={link} title={subheading} className="btn btn-primary btn-large btn-rounded demo-nav">
-                        Explore
+                        {linktext}
                     </a>
                 </div>
             </div>
