@@ -1,11 +1,13 @@
 import React from 'react';
 import DEMOS from '../data/demos';
 import '../css/demos.css';
+import Fade from 'react-reveal/Fade';
 
 const Demo = props => {
     const { image, title, subheading, description, link, linktext } = props.demo;
 
     return (
+        <Fade bottom cascade>
         <div className='col-12 col-sm-6 col-md-6 col-lg-4 text-left text-sm-center'>
             <img src={image} alt={title} />
             <div className='demo text-left mt-4 mb-4'>
@@ -19,6 +21,7 @@ const Demo = props => {
                 </div>
             </div>
         </div>
+        </Fade>
     )
 }
 

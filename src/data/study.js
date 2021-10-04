@@ -6,7 +6,7 @@ const STUDYS = [
         id:1,
         image:studySVG,
         title:'SVG',
-        subheading:'Sector Scalable Graphics',
+        subheading:'Scalable Vector Graphics',
         description:'Combining visual design with mathematical functions for enhanced UI and dynamic animations.',
         link:'http://www1.plurib.us/svg_gallery/',
         linktext:'Sample Gallery'

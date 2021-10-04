@@ -1,11 +1,13 @@
 import React from 'react';
 import STUDYS from '../data/study';
 import '../css/study.css';
+import Slide from 'react-reveal/Slide';
 
 const Study = props => {
-    const { image, title, subheading, description, link, linktext } = props.study;
+    const { id, image, title, subheading, description, link, linktext } = props.study;
 
     return (
+        <Slide left>
         <div className='col-12 col-sm-6 col-md-6 col-lg-4 text-left text-sm-center'>
             <img src={image} alt={title} />
             <div className='study text-left mt-4 mb-4'>
@@ -19,14 +21,15 @@ const Study = props => {
                 </div>
             </div>
         </div>
+        </Slide>
     )
 }
 
 const Studys = () => (
     <section id='study'>
 
-        <div className='construction-tape'></div>
-        <div className='construction-tape'></div>
+        <Slide left><div className='construction-tape'></div></Slide>
+        <Slide right><div className='construction-tape'></div></Slide>
 
         <div id="study-overlay"></div>
 
@@ -41,7 +44,7 @@ const Studys = () => (
             </div>
         </div>
 
-        <div className='construction-tape'></div>
+        <Slide left><div className='construction-tape'></div></Slide>
     </section>
 )
 

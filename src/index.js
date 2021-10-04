@@ -6,6 +6,7 @@ import {
 import App from './components/App';
 import MusicMaster from './projects/music-master';
 import './index.css';
+import './css/preload.css';
 
 ReactDOM.render(
     <Router basename='/protfolio2'>

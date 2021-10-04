@@ -1,0 +1,25 @@
+/* ===========================
+        Preloader
+============================== */
+.preloader {
+    background-color: var(--lowlight);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+#status {
+    background-image: url("../assets/img/preload/Ripple.gif");
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -75px;
+    margin-left: -75px;
+}
+

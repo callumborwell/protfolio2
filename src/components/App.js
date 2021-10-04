@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import Preloading from './Preloading';
 import Navb from './Navb';
 import About from './About';
 import Skills from './Skills';
@@ -7,38 +8,43 @@ import Study from './Study';
 import Contacts from './Contacts';
 
 class App extends Component {
-    state = { displayBio: false };
 
-    toggleDisplayBio = () => {
-        this.setState({displayBio: !this.state.displayBio});
+    state = {
+        loading: true
+    };
+
+    componentDidMount() {
+        // this simulates an async action, after which the component will render the content
+        demoAsyncCall().then(() => this.setState({ loading: false }));
     }
 
     render() {
-        let bio = this.state.displayBio ? (
-            <div>
-                <p>I am here</p>
-                <p>I like CSS</p>
-                <p>I love art</p>
-                <button onClick={this.toggleDisplayBio}>Show less</button>
-            </div>
-        ) : (
-            <div>
-                <button onClick={this.toggleDisplayBio}>Read more</button>
-            </div>
-        );
+
+        const { loading } = this.state;
+
+        if (loading) { // if your component doesn't have to wait for an async action, remove this block 
+            return (
+                <Preloading />
+            ); // render null when app is not ready
+        }
 
         return (
             <div>
+                
                 <Navb />
                 <About />
-                <Skills/>
-                <Demos/>
-                <Study/>
-                <Contacts/>
+                <Skills />
+                <Demos />
+                <Study />
+                <Contacts />
             </div>
-            
+
         )
     }
+}
+
+function demoAsyncCall() {
+    return new Promise((resolve) => setTimeout(() => resolve(), 2500));
 }
 
 export default App;
