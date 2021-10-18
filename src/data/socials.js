@@ -1,4 +1,4 @@
-import { FaInstagramSquare, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaInstagramSquare, FaLinkedin, FaGithub, FaCodepen } from 'react-icons/fa';
 import { GrMail } from 'react-icons/gr';
 
 const SOCIALS = [
@@ -22,6 +22,12 @@ const SOCIALS = [
     },
     {
         id:4,
+        icon:<FaCodepen/>,
+        title:'Codepen',
+        address:'https://codepen.io/collection/rxaeMv'
+    },
+    {
+        id:5,
         icon:<GrMail/>,
         title:'Mail',
         address:'mailto:callum.borwell@gmail.com'

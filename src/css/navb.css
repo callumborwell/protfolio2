@@ -64,3 +64,29 @@
     background:var(--highlight);
     padding:5px;
 }
+
+/* ===========================
+        SVG
+============================== */
+.st0{fill:#FFFFFF;}
+.st1{font-family:'Bahnschrift';}
+.st2{font-size:55.9073px;}
+.st3{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+
+.st3 {
+    stroke-dasharray: 910;
+    animation: draw 2s reverse;
+  }
+  @keyframes draw {
+    0% { stroke-dashoffset:0; }
+    100% { stroke-dashoffset:910; }
+  }
+  
+  #borwell {
+    opacity:0;
+    animation: reveal 1s linear 1.7s forwards;
+  }
+  @keyframes reveal {
+    0% { opacity:0 }
+    100% { opacity:1 }
+  }

@@ -1,6 +1,7 @@
 import { FaMobileAlt, FaJava, FaReact, FaPenFancy, FaAtlassian } from 'react-icons/fa';
 import { BsCodeSlash, BsBraces, BsImage } from 'react-icons/bs';
 import { GoBrowser } from 'react-icons/go';
+import { ImSvg } from 'react-icons/im';
 
 const SKILLS = [
     {
@@ -53,6 +54,12 @@ const SKILLS = [
     },
     {
         id:9,
+        icon:<ImSvg/>,
+        title:'SVG',
+        desc:'SVG images & SVG sprite icons. Optimized with SVGO.'
+    },
+    {
+        id:10,
         icon:<FaAtlassian/>,
         title:'Working with Atlassian tools',
         desc:'Jira, Trello, and Confluence.'
