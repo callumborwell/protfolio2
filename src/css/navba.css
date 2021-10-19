@@ -1,0 +1,89 @@
+/* ===========================
+        Navbar
+============================== */
+.navbar {
+    /* padding: 13px 50px; */
+    height:100%;
+
+    font-family: "Roboto", sans-serif;
+    color: var(--highlight);
+    font-size: 15px;
+    letter-spacing: 1px;
+
+    background-color: rgba(17,17,17,1);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border:none;
+
+    border-radius: 0;
+
+    z-index:999;
+
+    border-bottom: 3px solid var(--highlight);
+}
+
+@media (max-width: 767px){
+    .navbar {
+        padding: 13px 0;
+    }
+}
+
+#responsive-navbar-nav {
+    justify-content: right;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:var(--highlight);
+    margin:0 5px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color:#fff;
+}
+
+.navbar-light .navbar-brand svg {
+    top: 50%;
+    -ms-transform: translateY(-30%);
+    transform: translateY(-30%);
+}
+
+.navbar-light .navbar-toggler {
+    border:none;
+    background:var(--highlight);
+    padding:5px;
+}
+
+/* Navbacker for scroll correction */
+#navbacker {
+    width:100%;
+    background:black;
+    z-index:-1;
+    height:80vh;
+  }
+
+/* ===========================
+        SVG
+============================== */
+.st0{fill:#FFFFFF;}
+.st1{font-family:'Bahnschrift';}
+.st2{font-size:55.9073px;}
+.st3{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+
+.st3 {
+    stroke-dasharray: 910;
+    animation: draw 2s reverse;
+  }
+  @keyframes draw {
+    0% { stroke-dashoffset:0; }
+    100% { stroke-dashoffset:910; }
+  }
+  
+  #borwell {
+    opacity:0;
+    animation: reveal 1s linear 1.7s forwards;
+  }
+  @keyframes reveal {
+    0% { opacity:0 }
+    100% { opacity:1 }
+  }

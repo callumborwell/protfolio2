@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Preloading from './Preloading';
-import Navb from './Navb';
+import Navba from './Navba';
 import About from './About';
 import Skills from './Skills';
 import Demos from './Demos';
@@ -31,7 +31,7 @@ class App extends Component {
         return (
             <div>
                 
-                <Navb />
+                <Navba />
                 <About />
                 <Skills />
                 <Demos />

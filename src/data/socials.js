@@ -24,7 +24,7 @@ const SOCIALS = [
         id:4,
         icon:<FaCodepen/>,
         title:'Codepen',
-        address:'https://codepen.io/collection/rxaeMv'
+        address:'https://codepen.io/callumborwell'
     },
     {
         id:5,
