@@ -32,7 +32,9 @@ function About() {
         <section id='about'>
 
             {/* <img alt='background' id='about-bg-img' src={me__bg} /> */}
-            <div class='layer-bg layer parallax' data-depth='-0.3'></div>
+            <div class='stars layer parallax' data-depth='-0.3'></div>
+            <div class='twinkle layer parallax' data-depth='-0.3'></div>
+            {/* <div class='layer-bg layer parallax' data-depth='-0.3'></div> */}
             <div class='layer-1 layer parallax' data-depth='-0.2'></div>
             <div class='layer-2 layer parallax' data-depth='-0.1'></div>
             <div class='layer-3 layer parallax' data-depth='0'></div>
