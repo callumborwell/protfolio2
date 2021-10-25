@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.e21c3917.chunk.css",
-    "main.js": "./static/js/main.4d635d9f.chunk.js",
-    "main.js.map": "./static/js/main.4d635d9f.chunk.js.map",
+    "main.css": "./static/css/main.4d26c4d3.chunk.css",
+    "main.js": "./static/js/main.6e9d590c.chunk.js",
+    "main.js.map": "./static/js/main.6e9d590c.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.3f3b59a6.js",
     "runtime-main.js.map": "./static/js/runtime-main.3f3b59a6.js.map",
     "static/js/2.79d72d51.chunk.js": "./static/js/2.79d72d51.chunk.js",
     "static/js/2.79d72d51.chunk.js.map": "./static/js/2.79d72d51.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.e21c3917.chunk.css.map": "./static/css/main.e21c3917.chunk.css.map",
+    "static/css/main.4d26c4d3.chunk.css.map": "./static/css/main.4d26c4d3.chunk.css.map",
     "static/js/2.79d72d51.chunk.js.LICENSE.txt": "./static/js/2.79d72d51.chunk.js.LICENSE.txt",
     "static/media/preload.css": "./static/media/Ripple.84f0e588.gif",
     "static/media/about.css": "./static/media/bg-04_foreground.e7649405.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.3f3b59a6.js",
     "static/js/2.79d72d51.chunk.js",
-    "static/css/main.e21c3917.chunk.css",
-    "static/js/main.4d635d9f.chunk.js"
+    "static/css/main.4d26c4d3.chunk.css",
+    "static/js/main.6e9d590c.chunk.js"
   ]
 }
