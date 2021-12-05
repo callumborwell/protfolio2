@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.4d26c4d3.chunk.css",
-    "main.js": "./static/js/main.6e9d590c.chunk.js",
-    "main.js.map": "./static/js/main.6e9d590c.chunk.js.map",
+    "main.js": "./static/js/main.c28b8fe9.chunk.js",
+    "main.js.map": "./static/js/main.c28b8fe9.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.3f3b59a6.js",
     "runtime-main.js.map": "./static/js/runtime-main.3f3b59a6.js.map",
     "static/js/2.79d72d51.chunk.js": "./static/js/2.79d72d51.chunk.js",
@@ -13,16 +13,15 @@
     "static/media/preload.css": "./static/media/Ripple.84f0e588.gif",
     "static/media/about.css": "./static/media/bg-04_foreground.e7649405.png",
     "static/media/demo-css.3b563ee8.png": "./static/media/demo-css.3b563ee8.png",
-    "static/media/demo-music.3bc07b6e.png": "./static/media/demo-music.3bc07b6e.png",
+    "static/media/demo-music.b60da2cb.png": "./static/media/demo-music.b60da2cb.png",
     "static/media/demo-solo.e1063d30.png": "./static/media/demo-solo.e1063d30.png",
-    "static/media/study-svg.a1aac25c.png": "./static/media/study-svg.a1aac25c.png",
-    "static/media/study-threejs.4a431f31.png": "./static/media/study-threejs.4a431f31.png",
+    "static/media/study-svg.656d4d2a.png": "./static/media/study-svg.656d4d2a.png",
     "static/media/study.css": "./static/media/study__bg.0c4ac729.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.3f3b59a6.js",
     "static/js/2.79d72d51.chunk.js",
     "static/css/main.4d26c4d3.chunk.css",
-    "static/js/main.6e9d590c.chunk.js"
+    "static/js/main.c28b8fe9.chunk.js"
   ]
 }
