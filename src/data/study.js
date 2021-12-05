@@ -5,20 +5,20 @@ const STUDYS = [
     {
         id:1,
         image:studySVG,
-        title:'SVG',
-        subheading:'Scalable Vector Graphics',
+        title:'Greensock',
+        subheading:'Modern Web Animation',
         description:'Combining visual design with mathematical functions for enhanced UI and dynamic animations.',
-        link:'http://www1.plurib.us/svg_gallery/',
+        link:'https://greensock.com/showcase/',
         linktext:'Sample Gallery'
     },
     {
         id:2,
         image:studyThreeJS,
-        title:'ThreeJS',
-        subheading:'3D Assets Integration',
-        description:'I have experience with 3D modelling, and plan to combine that with web design for powerful scenes.',
-        link:'https://threejs.org/',
-        linktext:'ThreeJS.org'
+        title:'Typescript',
+        subheading:'Syntax Validation',
+        description:'Validating Javascript with static type checking, to catch and reduce costly stack-trace errors.',
+        link:'https://www.typescriptlang.org/',
+        linktext:'Explore'
     }
 ];
 

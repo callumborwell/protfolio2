@@ -24,11 +24,11 @@ const DEMOS = [
     {
         id:3,
         image:demoMusic,
-        title:'Music Master',
-        subheading:'React and Spotify API',
-        description:'Applied React core concepts, populating content from authenticated Spotify API in a simple search engine, including audio functions.',
-        link:'/music-master',
-        linktext:'Explore'
+        title:'React Tetris',
+        subheading:'With Custom Hooks',
+        description:'Applied React core concepts, staging a Tetris game with default and custom React Hooks',
+        link:'https://callumborwell.github.io/react-tetris/',
+        linktext:'Play'
     },
 ];
 
